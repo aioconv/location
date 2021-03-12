@@ -32,6 +32,13 @@ function showPosition(position) {
   } else {
     y.style.display = "none";
   }
+  var s = document.getElementById("demo");
+    if (s.style.display === "none") {
+    s.style.display = "block";
+  } 
+  else {
+    s.style.display = "none";
+  }
 
 }
 
@@ -52,15 +59,9 @@ function showError(error) {
   }
     
 
-    var s = document.getElementById("demo");
-    if (s.style.display === "none") {
-    s.style.display = "block";
-  } else {
-    s.style.display = "none";
-  }
-  
 
-  
+
+
 }
 
 function myFunction() {
